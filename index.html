@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://kit.fontawesome.com/db1919f9a7.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Flower Market</title>
+    <script>
+        function showAlert(){
+            alert("Flower Added to Cart!");
+        }
+    </script>
 </head>
 
 <body class="bg-sky-50 p-4 sm:px-36 sm:max-w-7xl sm:mx-auto">
@@ -16,9 +21,9 @@
             <div class="right-section flex items-center">
                 <nav class="invisible sm:visible ">
                     <ul class="flex gap-12 text-gray-400 font-bold">
-                        <li><a href="" class="text-black">Home</a></li>
-                        <li><a href="">Shop</a></li>
-                        <li><a href="">About Us</a></li>
+                        <li><a href="" class="hover:text-black">Home</a></li>
+                        <li><a href="" class="hover:text-black">Shop</a></li>
+                        <li><a href="" class="hover:text-black">About Us</a></li>
                     </ul>
                 </nav>
                 <div class="cart flex gap-2 items-center sm:ml-12">
@@ -47,7 +52,7 @@
                 <img class="w-full" src="assets/sample-flower-image.png" alt="">
                 <p class="mt-7">Lily Blossom</p>
                 <h4 class="font-bold">$20 USD</h4>
-                <button
+                <button onclick="showAlert()"
                     class="mt-7 bg-orange-500 text-white font-bold py-4 px-6 w-full hover:bg-amber-700 transition duration-400">ADD
                     TO CART</button>
             </div>
@@ -55,7 +60,7 @@
                 <img class="w-full" src="assets/sample-flower-image.png" alt="">
                 <p class="mt-7">Lily Blossom</p>
                 <h4 class="font-bold">$20 USD</h4>
-                <button
+                <button onclick="showAlert()"
                     class="mt-7 bg-orange-500 text-white font-bold py-4 px-6 w-full hover:bg-amber-700 transition duration-400">ADD
                     TO CART</button>
             </div>
@@ -63,7 +68,7 @@
                 <img class="w-full" src="assets/sample-flower-image.png" alt="">
                 <p class="mt-7">Lily Blossom</p>
                 <h4 class="font-bold">$20 USD</h4>
-                <button
+                <button onclick="showAlert()"
                     class="mt-7 bg-orange-500 text-white font-bold py-4 px-6 w-full hover:bg-amber-700 transition duration-400">ADD
                     TO CART</button>
             </div>
@@ -71,7 +76,7 @@
                 <img class="w-full" src="assets/sample-flower-image.png" alt="">
                 <p class="mt-7">Lily Blossom</p>
                 <h4 class="font-bold">$20 USD</h4>
-                <button
+                <button onclick="showAlert()"
                     class="mt-7 bg-orange-500 text-white font-bold py-4 px-6 w-full hover:bg-amber-700 transition duration-400">ADD
                     TO CART</button>
             </div>
@@ -79,7 +84,7 @@
                 <img class="w-full" src="assets/sample-flower-image.png" alt="">
                 <p class="mt-7">Lily Blossom</p>
                 <h4 class="font-bold">$20 USD</h4>
-                <button
+                <button onclick="showAlert()"
                     class="mt-7 bg-orange-500 text-white font-bold py-4 px-6 w-full hover:bg-amber-700 transition duration-400">ADD
                     TO CART</button>
             </div>
@@ -87,7 +92,7 @@
                 <img class="w-full" src="assets/sample-flower-image.png" alt="">
                 <p class="mt-7">Lily Blossom</p>
                 <h4 class="font-bold">$20 USD</h4>
-                <button
+                <button onclick="showAlert()"
                     class="mt-7 bg-orange-500 text-white font-bold py-4 px-6 w-full hover:bg-amber-700 transition duration-400">ADD
                     TO CART</button>
             </div>
@@ -95,7 +100,7 @@
                 <img class="w-full" src="assets/sample-flower-image.png" alt="">
                 <p class="mt-7">Lily Blossom</p>
                 <h4 class="font-bold">$20 USD</h4>
-                <button
+                <button onclick="showAlert()"
                     class="mt-7 bg-orange-500 text-white font-bold py-4 px-6 w-full hover:bg-amber-700 transition duration-400">ADD
                     TO CART</button>
             </div>
@@ -103,7 +108,7 @@
                 <img class="w-full" src="assets/sample-flower-image.png" alt="">
                 <p class="mt-7">Lily Blossom</p>
                 <h4 class="font-bold">$20 USD</h4>
-                <button
+                <button onclick="showAlert()"
                     class="mt-7 bg-orange-500 text-white font-bold py-4 px-6 w-full hover:bg-amber-700 transition duration-400">ADD
                     TO CART</button>
             </div>
@@ -128,7 +133,7 @@
         <h3 class="text-3xl sm:text-5xl text-orange-500 font-bold">Latest <span class="text-black">Deals</span></h3>
         <p class="text-gray-500 mt-4 sm:max-w-3/4">Indulge your senses with the beauty and fragrance of our fresh flower
             shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-        <div class="collage-card-container text-center grid gap-4 sm:grid-cols-3 sm:grid-rows-2 mt-12 sm:mt-28">
+        <div class="collage-card-container w-full text-center grid gap-4 sm:grid-cols-3 sm:grid-rows-2 mt-12 sm:mt-28">
             <div
                 class="card-container bg-[url(/assets/deal-bloom.png)] bg-cover bg-black/40 bg-blend-overlay text-white p-16 rounded-2xl">
                 <h5 class="font-bold">60% Off | Bloom Plant</h5>
